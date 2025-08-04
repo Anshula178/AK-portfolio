@@ -14,13 +14,13 @@ const Index = () => {
         <section id="home">
           <Hero />
         </section>
+        <Skills />
         <section id="projects">
           <Projects />
         </section>
         <section id="about">
           <About />
         </section>
-        <Skills />
         <section id="contact">
           <Contact />
         </section>

@@ -27,7 +27,7 @@ const Hero = () => {
 
         {/* Heading */}
         <h1 className="text-[1.75rem] sm:text-6xl md:text-7xl font-extrabold leading-tight mb-6 text-white drop-shadow-xl">
-          UI/UX Designer & Frontend Developer
+         Frontend & Webflow Developer
         </h1>
 
         {/* Subtext */}
@@ -53,7 +53,7 @@ const Hero = () => {
 
         {/* Social Icons */}
         <div className="flex justify-center gap-5 mb-12">
-          {[Github, Linkedin, Mail].map((Icon, idx) => (
+          {[ Linkedin, Mail].map((Icon, idx) => (
             <Button
               key={idx}
               variant="ghost"
@@ -69,8 +69,8 @@ const Hero = () => {
         <div className="grid grid-cols-3 gap-8 max-w-md mx-auto text-white">
           {[
             { label: "Projects", value: "50+" },
-            { label: "Years", value: "5+" },
-            { label: "Satisfaction", value: "98%" },
+            { label: "Years", value: "4+" },
+            { label: "Satisfaction", value: "100%" },
           ].map(({ label, value }) => (
             <div className="text-center" key={label}>
               <div className="text-3xl font-bold text-primary">{value}</div>

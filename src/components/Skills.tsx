@@ -3,11 +3,11 @@ import { Card, CardContent } from "@/components/ui/card";
 const skills = [
   {
     category: "Design Tools",
-    items: ["Figma", "Adobe XD", "Sketch", "Principle", "Framer", "Adobe Creative Suite"]
+    items: ["Figma",  "Photoshop", "Illustrator", "Framer",]
   },
   {
     category: "Development",
-    items: ["Webflow", "HTML/CSS", "React", "Tailwind CSS", "JavaScript", "Responsive Design"]
+    items: ["Webflow", "HTML/CSS","JavaScript", "React", "Tailwind CSS","Wordpress", "Wix"]
   },
   {
     category: "UX Methods",
