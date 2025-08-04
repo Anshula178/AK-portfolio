@@ -27,41 +27,60 @@ const Hero = () => {
 
         {/* Heading */}
         <h1 className="text-[1.75rem] sm:text-6xl md:text-7xl font-extrabold leading-tight mb-6 text-white drop-shadow-xl">
-         Frontend & Webflow Developer
+          Frontend & Webflow Developer
         </h1>
 
         {/* Subtext */}
         <p className="text-lg sm:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed">
-          I craft clean, functional interfaces with thoughtful UX, blending strategy and design to build products people love to use.
+          I craft clean, functional interfaces with thoughtful UX, blending
+          strategy and design to build products people love to use.
         </p>
 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <a href="#projects">
-          <Button variant="hero" size="xl" className="group">
-            <span>View My Work</span>
-            <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
-          </Button>
+            <Button variant="hero" size="xl" className="group">
+              <span>View My Work</span>
+              <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
+            </Button>
           </a>
           <a href="#contact">
-          <Button variant="glass" size="xl" className="group">
-            <Mail className="h-4 w-4 mr-2 group-hover:scale-110 transition-transform" />
-            <span>Let’s Connect</span>
-          </Button>
+            <Button variant="glass" size="xl" className="group">
+              <Mail className="h-4 w-4 mr-2 group-hover:scale-110 transition-transform" />
+              <span>Let’s Connect</span>
+            </Button>
           </a>
         </div>
 
         {/* Social Icons */}
         <div className="flex justify-center gap-5 mb-12">
-          {[ Linkedin, Mail].map((Icon, idx) => (
-            <Button
+          {[
+            {
+              icon: Linkedin,
+              href: "https://www.linkedin.com/in/atul-kumar-62a743184", // replace with your LinkedIn URL
+              label: "LinkedIn",
+            },
+            {
+              icon: Mail,
+              href: "mailto:atul.striveup@gmail.com", // replace with your email
+              label: "Email",
+            },
+          ].map(({ icon: Icon, href, label }, idx) => (
+            <a
               key={idx}
-              variant="ghost"
-              size="icon"
-              className="hover:text-primary hover:bg-primary/10 hover:scale-110 transition-all duration-300 backdrop-blur"
+              href={href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={label}
             >
-              <Icon className="h-5 w-5" />
-            </Button>
+              <Button
+                variant="ghost"
+                size="icon"
+                className="hover:text-primary hover:bg-primary/10 hover:scale-110 transition-all duration-300 backdrop-blur"
+              >
+                <Icon className="h-5 w-5" />
+              </Button>
+            </a>
           ))}
         </div>
 
