@@ -32,8 +32,7 @@ const Hero = () => {
 
         {/* Subtext */}
         <p className="text-lg sm:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed">
-          I craft clean, functional interfaces with thoughtful UX, blending
-          strategy and design to build products people love to use.
+          With 4+ years of experience, I craft clean, functional interfaces with thoughtful UX — blending strategy and design to build digital products people genuinely love to use.
         </p>
 
         {/* Buttons */}

@@ -59,9 +59,7 @@ const Projects = () => {
               <CardHeader className="relative z-10">
                 <div className="flex justify-between items-start mb-4">
                   <span className="text-sm font-semibold text-primary bg-primary/10 px-3 py-1 rounded-full">{project.category}</span>
-                  <Button variant="ghost" size="icon" className="opacity-0 group-hover:opacity-100 transition-all duration-300 hover:scale-110 hover:bg-primary/10">
-                    <ExternalLink className="h-4 w-4" />
-                  </Button>
+                 
                 </div>
                 <CardTitle className="text-xl mb-3 group-hover:text-primary transition-colors duration-300">{project.title}</CardTitle>
                 <CardDescription className="text-base leading-relaxed text-muted-foreground group-hover:text-foreground/80 transition-colors duration-300">
@@ -81,8 +79,7 @@ const Projects = () => {
                 </div>
                 <a href="#contact">
                 <Button variant="glass" className="w-full group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary transition-all duration-300">
-                  <Figma className="h-4 w-4 mr-2 group-hover:scale-110 transition-transform" />
-                  Contact Me
+                   <ExternalLink className="h-4 w-4" />
                 </Button>
                 </a>
               </CardContent>

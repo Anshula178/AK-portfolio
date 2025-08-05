@@ -48,7 +48,7 @@ const About = () => {
               <CardContent className="p-8 relative overflow-hidden">
                 <div className="absolute inset-0 bg-gradient-accent opacity-0 group-hover:opacity-10 transition-opacity duration-500" />
                 <div className="relative z-10">
-                  <div className="text-4xl font-bold bg-gradient-accent bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform duration-300">5+</div>
+                  <div className="text-4xl font-bold bg-gradient-accent bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform duration-300">4+</div>
                   <div className="text-sm font-medium text-muted-foreground group-hover:text-foreground transition-colors">Years Experience</div>
                 </div>
                 <div className="absolute top-2 right-2 w-16 h-16 bg-gradient-accent rounded-full opacity-0 group-hover:opacity-20 transition-opacity duration-500 blur-xl" />
