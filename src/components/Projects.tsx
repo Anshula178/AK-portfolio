@@ -8,31 +8,31 @@ const categories = ["All", "Webflow", "Wordpress", "Wix", "Frontend"];
 const projects = [
   {
     title: "QS-Labs",
-    description: "Complete redesign of a shopping app focusing on user experience and conversion optimization.",
+    description: "Quantum Source is on a clear path to the most powerful, cost-effective, practical photonic quantum computer.",
     
     category: "Webflow",
     color: "from-pink-500/20 to-purple-500/20",
     link: "https://www.qs-labs.com/"
   },
   {
-    title: "SaaS Dashboard Interface",
-    description: "Clean and intuitive dashboard design for a project management platform with complex data visualization.",
+    title: "Values Network - Collaborative social network",
+    description: "A social feed built for opportunity and inspiration — not ads or negativity. Join Missions, earn rewards, and reclaim your digital freedom.",
    
     category: "Webflow",
     color: "from-blue-500/20 to-cyan-500/20",
     link: "https://www.values.network/"
   },
   {
-    title: "Banking App Redesign",
-    description: "Modernizing legacy banking interface with focus on accessibility and user trust.",
+    title: "We Achieve ABA",
+    description: "We Achieve ABA is a dedicated therapy center committed to delivering specialized ABA therapy for children on the autism spectrum.",
     
     category: "Webflow",
     color: "from-green-500/20 to-emerald-500/20",
     link: "https://www.weachieveaba.com/"
   },
   {
-    title: "Design System Creation",
-    description: "Comprehensive design system for a fintech startup including components library and guidelines.",
+    title: "Dental Wellness",
+    description: "At Dental & Wellness London, we offer advanced dental, aesthetic, and holistic care to support your health and confidence.",
     
     category: "Webflow",
     color: "from-orange-500/20 to-red-500/20",
@@ -40,7 +40,7 @@ const projects = [
   },
   {
     title: "Femselect",
-    description: "Comprehensive design system for a fintech startup including components library and guidelines.",
+    description: " Femselect EnPlace, a minimally invasive approach to Pelvic Organ Prolapse.",
     
     category: "Wordpress",
     color: "from-orange-500/20 to-red-500/20",
@@ -48,7 +48,7 @@ const projects = [
   },
   {
     title: "Lightico",
-    description: "Comprehensive design system for a fintech startup including components library and guidelines.",
+    description: "Lightico streamlines processes with swipes and selfies, helping businesses and customers move forward faster.",
     
     category: "Wordpress",
     color: "from-orange-500/20 to-red-500/20",
@@ -56,7 +56,7 @@ const projects = [
   },
   {
     title: "JK Strategy",
-    description: "Comprehensive design system for a fintech startup including components library and guidelines.",
+    description: "JK Strategy delivers integrated legal and investigative services, blending fact-finding with strategic expertise to drive real business results.",
     
     category: "Wordpress",
     color: "from-orange-500/20 to-red-500/20",
@@ -64,7 +64,7 @@ const projects = [
   },
   {
     title: "Yeshezra",
-    description: "Comprehensive design system for a fintech startup including components library and guidelines.",
+    description: "Yesh Ezra is a non-profit aiding Israel’s most vulnerable families with compassion, dignity, and lasting support.",
     
     category: "Wix",
     color: "from-orange-500/20 to-red-500/20",
@@ -72,28 +72,45 @@ const projects = [
   },
   {
     title: "Blinkz",
-    description: "Comprehensive design system for a fintech startup including components library and guidelines.",
+    description: "A powerful platform designed to help growing Indian businesses streamline orders, cut costs, and process secure payments at scale.",
     
     category: "Frontend",
     color: "from-orange-500/20 to-red-500/20",
     link: "https://ecom-pricing.vercel.app/"
   },
   {
-    title: "Blinkz",
+    title: "BitPulse",
     description: "Comprehensive design system for a fintech startup including components library and guidelines.",
     
     category: "Frontend",
     color: "from-orange-500/20 to-red-500/20",
-    link: "chatty-rho-five.vercel.app"
+    link: "https://bitpulse-silk.vercel.app/"
   },
   {
-    title: "Blinkz",
-    description: "Comprehensive design system for a fintech startup including components library and guidelines.",
+    title: "Chatty",
+    description: "Chatty is a fast, secure messaging app that lets you connect instantly with friends using real-time chat and easy username search.",
     
     category: "Frontend",
     color: "from-orange-500/20 to-red-500/20",
-    link: "dashboard-xi-flame.vercel.app"
-  }
+    link: "https://chatty-rho-five.vercel.app/"
+  },
+  {
+    title: "SmartSell",
+    description: "SmartSell is an all-in-one dashboard to track sales, users, product performance, and channel analytics—designed to help businesses grow with data-driven insights",
+    
+    category: "Frontend",
+    color: "from-orange-500/20 to-red-500/20",
+    link: "https://dashboard-xi-flame.vercel.app/"
+  },
+  {
+    title: "NexPage",
+    description: " NexPage create stunning, responsive web experiences with ease—our platform offers beautifully crafted templates, powerful features, and flexible pricing to help you launch and grow effortlessly.",
+    
+    category: "Frontend",
+    color: "from-orange-500/20 to-red-500/20",
+    link: "https://nex-page.vercel.app/"
+  },
+  
 ];
 
 const Projects = () => {
