@@ -9,22 +9,18 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">About Me</h2>
-           <div className="space-y-4 text-lg text-muted-foreground">
+  <div className="space-y-4 text-lg text-muted-foreground">
   <p>
-    Hi, I’m <span className="text-primary font-semibold">Atul Kumar</span> — a passionate UI/UX designer with over 4 years of experience creating 
-    digital experiences that delight users and drive business results. My approach 
-    combines user-centered design principles with modern aesthetic sensibilities.
+    Hi, I’m <span className="text-primary font-semibold">Atul Kumar</span> — a passionate UI/UX designer and full-stack web developer with over 4 years of experience crafting digital experiences that are both user-friendly and results-driven.
   </p>
   <p>
-    Specializing in both <strong>Figma</strong> and <strong>Webflow</strong>, I bridge the gap between design and 
-    development, ensuring that beautiful designs translate into functional, 
-    accessible digital products.
+    I specialize in design tools like <strong>Figma</strong> and <strong>Webflow</strong>, and also bring websites to life using <strong>WordPress</strong>, <strong>Wix</strong>, <strong>React</strong>, and <strong>Next.js</strong>. From no-code builds to fully custom applications, I bridge the gap between design and development.
   </p>
   <p>
-    When I’m not designing, you’ll find me exploring new design trends, 
-    contributing to the design community, or mentoring aspiring designers.
+    Whether it's creating intuitive interfaces or developing high-performance web apps, I’m passionate about delivering end-to-end solutions. Outside of work, I love exploring new tech, staying ahead of design trends, and mentoring aspiring creatives.
   </p>
 </div>
+
 
             {/* <Button variant="hero" size="lg" className="mt-8">
               {/* <Download className="h-4 w-4 mr-2" />
