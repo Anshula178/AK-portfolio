@@ -80,7 +80,7 @@ const projects = [
   },
   {
     title: "BitPulse",
-    description: "Comprehensive design system for a fintech startup including components library and guidelines.",
+    description: "BitPulse is your all-in-one crypto platform for trading, portfolio management, and blockchain development—empowering secure, scalable, and future-ready digital experiences.",
     
     category: "Frontend",
     color: "from-orange-500/20 to-red-500/20",
