@@ -151,16 +151,7 @@ const Projects = () => {
               </CardHeader>
 
               <CardContent className="relative z-10">
-                <div className="flex flex-wrap gap-2 mb-6">
-                  {project.tools.map((tool, toolIndex) => (
-                    <span
-                      key={toolIndex}
-                      className="px-3 py-1.5 text-xs font-medium bg-muted/50 text-muted-foreground rounded-full border border-border/30 backdrop-blur-sm group-hover:bg-primary/10 group-hover:text-primary group-hover:border-primary/20 transition-all duration-300"
-                    >
-                      {tool}
-                    </span>
-                  ))}
-                </div>
+                
                 <a href={project.link} target="_blank" rel="noopener noreferrer">
                   <Button
                     variant="glass"
