@@ -9,7 +9,7 @@ const projects = [
   {
     title: "QS-Labs",
     description: "Complete redesign of a shopping app focusing on user experience and conversion optimization.",
-    tools: ["Figma", "Principle", "User Research"],
+    
     category: "Webflow",
     color: "from-pink-500/20 to-purple-500/20",
     link: "https://www.qs-labs.com/"
@@ -17,7 +17,7 @@ const projects = [
   {
     title: "SaaS Dashboard Interface",
     description: "Clean and intuitive dashboard design for a project management platform with complex data visualization.",
-    tools: ["Figma", "Webflow", "Prototyping"],
+   
     category: "Webflow",
     color: "from-blue-500/20 to-cyan-500/20",
     link: "https://www.values.network/"
@@ -25,7 +25,7 @@ const projects = [
   {
     title: "Banking App Redesign",
     description: "Modernizing legacy banking interface with focus on accessibility and user trust.",
-    tools: ["Figma", "Adobe XD", "User Testing"],
+    
     category: "Webflow",
     color: "from-green-500/20 to-emerald-500/20",
     link: "https://www.weachieveaba.com/"
@@ -33,7 +33,7 @@ const projects = [
   {
     title: "Design System Creation",
     description: "Comprehensive design system for a fintech startup including components library and guidelines.",
-    tools: ["Figma", "Storybook", "Documentation"],
+    
     category: "Webflow",
     color: "from-orange-500/20 to-red-500/20",
     link: "https://dentalwellnesslondon.co.uk"
@@ -41,7 +41,7 @@ const projects = [
   {
     title: "Femselect",
     description: "Comprehensive design system for a fintech startup including components library and guidelines.",
-    tools: ["Figma", "Storybook", "Documentation"],
+    
     category: "Wordpress",
     color: "from-orange-500/20 to-red-500/20",
     link: "https://www.femselect.com/"
@@ -49,7 +49,7 @@ const projects = [
   {
     title: "Lightico",
     description: "Comprehensive design system for a fintech startup including components library and guidelines.",
-    tools: ["Figma", "Storybook", "Documentation"],
+    
     category: "Wordpress",
     color: "from-orange-500/20 to-red-500/20",
     link: "https://www.lightico.com/"
@@ -57,7 +57,7 @@ const projects = [
   {
     title: "JK Strategy",
     description: "Comprehensive design system for a fintech startup including components library and guidelines.",
-    tools: ["Figma", "Storybook", "Documentation"],
+    
     category: "Wordpress",
     color: "from-orange-500/20 to-red-500/20",
     link: "https://jkstrategy.eu/nemokama-konsultacija/"
@@ -65,7 +65,7 @@ const projects = [
   {
     title: "Yeshezra",
     description: "Comprehensive design system for a fintech startup including components library and guidelines.",
-    tools: ["Figma", "Storybook", "Documentation"],
+    
     category: "Wix",
     color: "from-orange-500/20 to-red-500/20",
     link: "https://www.yeshezra.org/"
@@ -73,7 +73,7 @@ const projects = [
   {
     title: "Blinkz",
     description: "Comprehensive design system for a fintech startup including components library and guidelines.",
-    tools: ["Figma", "Storybook", "Documentation"],
+    
     category: "Frontend",
     color: "from-orange-500/20 to-red-500/20",
     link: "https://ecom-pricing.vercel.app/"
@@ -81,7 +81,7 @@ const projects = [
   {
     title: "Blinkz",
     description: "Comprehensive design system for a fintech startup including components library and guidelines.",
-    tools: ["Figma", "Storybook", "Documentation"],
+    
     category: "Frontend",
     color: "from-orange-500/20 to-red-500/20",
     link: "chatty-rho-five.vercel.app"
@@ -89,7 +89,7 @@ const projects = [
   {
     title: "Blinkz",
     description: "Comprehensive design system for a fintech startup including components library and guidelines.",
-    tools: ["Figma", "Storybook", "Documentation"],
+    
     category: "Frontend",
     color: "from-orange-500/20 to-red-500/20",
     link: "dashboard-xi-flame.vercel.app"
